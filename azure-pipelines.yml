@@ -10,6 +10,7 @@ pool:
   name: 'MyPool01'
   demands:
   - Agent.OS -equals Windows_NT
+  - Agent.Name -equals Fake-Name-01
 
 
 variables:
